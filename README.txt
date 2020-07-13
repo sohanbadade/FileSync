@@ -4,23 +4,17 @@
 	File Sync
 
 ---------------------------------
-2. TEAM:
----------------------------------
-	Sohan Badade
-	Mohammed Ali
-
----------------------------------
-3. OVERVIEW:
+2. OVERVIEW:
 ---------------------------------
 	File Sync is the project that helps you synchronize your files and folders that are on different computers.
 	The idea of files/folders retaining multiple copies replicated (that are latest) accross multiple devices helps make our life easy.
 	This project uses a client-server based architecture and socket programming paradigm to communicate between two different machine.
 
 ---------------------------------
-4. STARTING APPLICATION:
+3. STARTING APPLICATION:
 ---------------------------------
 ---------------------------------
-4.1 How to run:
+3.1 How to run:
 ---------------------------------
 	1. Start the server. (Mentioned below)
 
@@ -40,7 +34,7 @@
 	8. All the files and folders inside this directory ("javaSync") will be Synchronized for you.
 
 ---------------------------------
-4.2 Starting the Server:
+3.2 Starting the Server:
 ---------------------------------
 	1. Open terminal in linux.
 	
@@ -54,7 +48,7 @@
 
 
 ---------------------------------
-4.3 Starting the Client:
+3.3 Starting the Client:
 ---------------------------------
 	1. Create a folder named "javaSync" in linux's home directory.
 
@@ -69,16 +63,16 @@
 	6. Start the Client using: java fs.FileSync -s [IP addr of server machine] ~/javaSync/
 
 ---------------------------------
-4.4 Starting Multiple Clients:
+3.4 Starting Multiple Clients:
 ---------------------------------
-	Follow the steps given in 4.3 for each client.
+	Follow the steps given in 3.3 for each client.
 
 
 ---------------------------------
-5. RESULTS
+4. RESULTS
 ---------------------------------
 ---------------------------------
-5.1 Looking for Synchronized files on the Server (After Synchronization): 
+4.1 Looking for Synchronized files on the Server (After Synchronization): 
 ---------------------------------
 	Synchronized files on the server will be where the project files are located.
 	
@@ -89,7 +83,7 @@
 	3. This is where your files and folders will be found.
 
 ---------------------------------
-5.2 Looking for Synchronized files on the Client (After Synchronization):
+4.2 Looking for Synchronized files on the Client (After Synchronization):
 ---------------------------------
 	Synchronized files on the client will be on the clients /home directory.
 	
@@ -100,32 +94,16 @@
 	3. This is where your files and folders will be found.
 
 ---------------------------------
-5.3 Exit Application:
+4.3 Exit Application:
 ---------------------------------
 	Press the button provided under in the pop up called "Exit Application".
 
 
 
 ---------------------------------
-6. CONTACT
+5. CONTACT
 ---------------------------------
 	For any help, contact:
 	
 	1. sohan.badade@gmail.com
-	2. mxa1690@gmail.com
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	2. sohan.badade@mavs.uta.edu
